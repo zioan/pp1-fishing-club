@@ -73,3 +73,20 @@ nav li {
   margin: 0.5rem;
   text-align: center;
 }
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  .nav-toggler {
+    display: none;
+  }
+
+  #navbar {
+    flex-direction: row;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+}
