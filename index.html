@@ -15,6 +15,59 @@
 
 <body>
 
+  <!-- Header -->
+  <header>
+    <div class="container" id="navbar">
+      <a href="index.html" id="logo">Apen Fishing Club</a>
+      <button class="nav-toggler" aria-label="toggle main menu" onclick="toggleNavbarVisibility()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="toggleNavbarVisibility()">Home</a></li>
+          <li><a href="#" onclick="toggleNavbarVisibility()">Membership</a></li>
+          <li><a href="#" onclick="toggleNavbarVisibility()">Gallery</a></li>
+          <li><a href="#" onclick="toggleNavbarVisibility()">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- JavaScript code to handle the main navigation behavior in terms of display width -->
+  <script>
+    // Get DOM elements and initializing global variable to handle screen size
+    var nav = document.querySelector("nav");
+    var navBar = document.querySelector("#navbar");
+    var windowWidth = "small";
+    // Function to toggle navbar visibility 
+    function toggleNavbarVisibility() {
+      // Early return if the screen is too large, so the rest of the function doesn't run if the condition is not met
+      if (windowWidth === "large") {
+        return
+      }
+
+      if (nav.style.display === "none") {
+        nav.style.display = "inline-block";
+        navBar.style.flexDirection = "column";
+      } else {
+        nav.style.display = "none";
+      }
+    }
+    // Function to check the current window size
+    function checkWindowSize() {
+      if (window.innerWidth <= 768) {
+        windowWidth = "small";
+        nav.style.display = "none";
+      } else {
+        windowWidth = "large";
+        nav.style.display = "inline-block";
+        navBar.style.flexDirection = "row"
+      }
+    }
+    // Initial check
+    checkWindowSize();
+    // Add event listener for window resize
+    window.addEventListener('resize', checkWindowSize);
+  </script>
 </body>
 
 </html>
