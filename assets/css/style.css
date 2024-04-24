@@ -26,6 +26,11 @@ main {
   flex: 1 0 auto;
 }
 
+h1 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
 /* Main navigation elements */
 header{
   background-color: #002400;
@@ -77,9 +82,33 @@ nav li {
   text-align: center;
 }
 
+/* Hero section */
+#hero {
+  background: url("../images/hero.jpg") no-repeat center/cover;
+  width: 100%;
+  min-height: 12rem;
+  padding: 0;
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: auto;
+  background: rgba(12, 92, 43, 0.9);
+  color: #ffffff;
+  padding: 0.5rem;
+  text-align: right;
+  letter-spacing: 2px;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  /* General styles */
+  h1 {
+    font-size: 1.8rem;
+  }
 
   /* Main navigation elements */
   .nav-toggler {
@@ -93,5 +122,20 @@ nav li {
   nav ul {
     display: flex;
     gap: 1rem;
+  }
+
+  /* Hero section */
+  #hero {
+    min-height: 30rem;
+  }
+
+  .text-overlay {
+    width: 80%;
+    max-width: 500px;
+    padding: 1rem;
+  }
+
+  .text-overlay p {
+    font-weight: bold;
   }
 }
