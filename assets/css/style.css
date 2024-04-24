@@ -130,6 +130,36 @@ nav li {
   letter-spacing: 2px;
 }
 
+/* About section */
+#about {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+#about h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#about img {
+  width: 100%;
+  max-width: 450%;
+}
+
+#about figcaption {
+  text-align: center;
+}
+
+#about .content-container {
+  padding-top: 2rem;
+}
+
+#about .content-container p {
+  margin-bottom: 1rem;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* General styles */
@@ -169,5 +199,15 @@ nav li {
 
   .text-overlay p {
     font-weight: bold;
+  }
+
+  /* About section */
+  #about>div {
+    display: flex;
+    gap: 4rem;
+  }
+
+  #about .content-container {
+    padding-top: 1rem;
   }
 }
