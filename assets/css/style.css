@@ -142,9 +142,10 @@ nav li {
   }
 
   .text-overlay {
-    width: 80%;
-    max-width: 500px;
-    padding: 1rem;
+    width: max-content;
+    padding: 1rem 2rem;
+    bottom: 2rem;
+    right: 2rem;
   }
 
   .text-overlay p {
