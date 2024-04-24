@@ -50,6 +50,13 @@ header{
   font-size: 1.5rem;
   color: #ffffff;
   text-decoration: none;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#logo i {
+  font-size: 2rem;
 }
 
 .nav-toggler {
@@ -111,6 +118,10 @@ nav li {
   }
 
   /* Main navigation elements */
+  #logo {
+    margin-left: 1rem;
+  }
+
   .nav-toggler {
     display: none;
   }
