@@ -1,6 +1,17 @@
 /* Import Roboto font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
 
+/* CSS variables */
+:root {
+  --website-width: 1140px;
+  --body-background-color: #F5F5F5;
+  --text-color: #ffffff;
+  --text-overlay-color: rgba(12, 92, 43, 0.9);
+  --header-background-color: #002400;
+  --primary-color: #273b09;
+  --secondary-color: #58641d;
+}
+
 /* Reset default browser styles */
 * {
   padding: 0;
@@ -11,12 +22,12 @@
 /* General styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F5F5F5;
+  background-color: var(--body-background-color);
 }
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: var(--website-width);
   min-height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -34,7 +45,7 @@ h1 {
 
 /* Main navigation elements */
 header{
-  background-color: #002400;
+  background-color: var(--header-background-color);
   padding: 1rem;
 }
 
@@ -49,7 +60,7 @@ header{
 
 #logo {
   font-size: 1.5rem;
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
   display: flex;
   gap: 0.5rem;
@@ -61,7 +72,7 @@ header{
 }
 
 .nav-toggler {
-  color: #ffffff;
+  color: var(--text-color);
   background-color: transparent;
   outline: none;
   border: none;
@@ -73,7 +84,7 @@ header{
 }
 
 nav a {
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
   line-height: 1.5rem;
   letter-spacing: 2px;
@@ -104,8 +115,8 @@ nav li {
   bottom: 0.5rem;
   right: 0.5rem;
   width: auto;
-  background: rgba(12, 92, 43, 0.9);
-  color: #ffffff;
+  background: var(--text-overlay-color);
+  color: var(--text-color);
   padding: 0.5rem;
   text-align: right;
   letter-spacing: 2px;
