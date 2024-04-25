@@ -10,7 +10,8 @@
   --header-background-color: #002400;
   --primary-color: #273b09;
   --secondary-color: #58641d;
-  --shadow-color: rgba(255, 255, 255, 0.5);
+  --primary-shadow-color: rgba(255, 255, 255, 0.5);
+  --secondary-shadow-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Reset default browser styles */
@@ -52,7 +53,7 @@ h1 {
 /* Main navigation elements */
 header {
   background-color: var(--header-background-color);
-  box-shadow: 0 2px 4px var(--shadow-color);
+  box-shadow: 0 2px 4px var(--primary-shadow-color), 0 8px 8px var(--secondary-shadow-color);
   padding: 1rem;
   position: fixed;
   width: 100%;
@@ -63,8 +64,6 @@ header {
 #navbar {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
-  position: relative;
 }
 
 #logo {
@@ -96,7 +95,6 @@ nav a {
   color: var(--text-color);
   font-size: 1.5rem;
   text-decoration: none;
-  line-height: 1.5rem;
   letter-spacing: 2px;
   padding: 0.5rem;
 }
@@ -172,6 +170,7 @@ nav li {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
   /* General styles */
   h1 {
     font-size: 1.8rem;
