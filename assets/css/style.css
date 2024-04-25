@@ -148,19 +148,26 @@ nav li {
 
 #about img {
   width: 100%;
-  max-width: 450%;
+}
+
+#about figure {
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 #about figcaption {
   text-align: center;
+  font-style: italic;
 }
 
 #about .content-container {
-  padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #about .content-container p {
   margin-bottom: 1rem;
+  text-align: justify;
+  text-indent: 1rem;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -209,12 +216,38 @@ nav li {
   }
 
   /* About section */
+  #about h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
   #about>div {
     display: flex;
     gap: 4rem;
+    margin: 5rem 1rem 2rem;
+  }
+
+  #about img {
+    max-height: 600px;
   }
 
   #about .content-container {
-    padding-top: 1rem;
+    flex: 2;
+  }
+
+  #about figure {
+    flex: 1;
+  }
+
+  #about figure {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  #about .content-container p {
+    font-size: 1.75rem;
+    text-indent: 1.5rem;
   }
 }
