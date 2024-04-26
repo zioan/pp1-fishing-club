@@ -204,6 +204,32 @@ nav li {
   margin-top: 1rem;
 }
 
+/* Gallery section */
+#gallery {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+video {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+}
+
+blockquote {
+  font-size: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 2rem;
+}
+
+blockquote footer {
+  text-align: right;
+  margin-right: 2rem;
+  font-style: italic;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -317,5 +343,36 @@ nav li {
 
   #membership hr {
     display: none;
+  }
+
+  /* Gallery section */
+  .gallery-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .gallery-content {
+    flex: 1;
+    align-self: center;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+
+  blockquote p {
+    font-size: 1.25rem;
+  }
+
+  blockquote footer {
+    text-align: right;
+    margin-right: 2rem;
+    font-style: italic;
+  }
+
+  .gallery-media {
+    flex: 1;
+    max-width: 450px;
   }
 }
