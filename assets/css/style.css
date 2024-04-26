@@ -137,7 +137,7 @@ nav li {
 
 /* Hero section */
 #hero {
-  background: url("../images/hero.jpg") no-repeat center/cover;
+  background: url("../images/hero.webp") no-repeat center/cover;
   width: 100%;
   min-height: 12rem;
   padding: 0;
