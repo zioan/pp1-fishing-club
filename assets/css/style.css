@@ -193,6 +193,10 @@ nav li {
   margin-bottom: 0.25rem;
 }
 
+.guest-ticket-description {
+  margin-top: 0.5rem;
+}
+
 #membership hr {
   margin-top: 2rem;
   height: 2px;
@@ -244,7 +248,7 @@ blockquote footer {
   }
 
   p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-indent: 1.5rem;
   }
 
@@ -336,7 +340,7 @@ blockquote footer {
   }
 
   .membership-category {
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 2rem 2rem 2rem;
     border: 2px solid var(--primary-color);
     border-radius: 2rem;
   }
