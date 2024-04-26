@@ -71,6 +71,10 @@ p {
   text-indent: 1rem;
 }
 
+section {
+  scroll-margin-top: 76px;
+}
+
 /* Main navigation elements */
 header {
   background-color: var(--header-background-color);
