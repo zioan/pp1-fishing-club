@@ -205,15 +205,15 @@
   <!-- Font Awesome kit -->
   <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
-  <!-- JavaScript code to handle the main navigation behavior in terms of display width -->
   <script>
-    // Get DOM elements and initializing global variable to handle screen size
-    var nav = document.querySelector("nav");
-    var navBar = document.querySelector("#navbar");
-    var windowWidth = "small";
-    // Function to toggle navbar visibility 
+    // # Code to handle the main navigation behavior in terms of display width
+    const nav = document.querySelector("nav");
+    const navBar = document.querySelector("#navbar");
+    let windowWidth = "small";
+
+    // function to toggle navbar visibility 
     function toggleNavbarVisibility() {
-      // Early return if the screen is too large, so the rest of the function doesn't run if the condition is not met
+      // early return if the screen is too large, so the rest of the function doesn't run if the condition is tue
       if (windowWidth === "large") {
         return
       }
@@ -225,7 +225,7 @@
         nav.style.display = "none";
       }
     }
-    // Function to check the current window size
+    // function to check current window size
     function checkWindowSize() {
       if (window.innerWidth <= 768) {
         windowWidth = "small";
@@ -236,9 +236,9 @@
         navBar.style.flexDirection = "row"
       }
     }
-    // Initial check
+    // initial check
     checkWindowSize();
-    // Add event listener for window resize
+    // event listener for window resize
     window.addEventListener('resize', checkWindowSize);
 
     // # Code for logo icon animation on scroll event
