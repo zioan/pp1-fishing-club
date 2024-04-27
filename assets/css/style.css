@@ -188,6 +188,7 @@ nav li {
 #membership li {
   margin-left: 2rem;
   margin-bottom: 0.25rem;
+  letter-spacing: 1px;
 }
 
 .guest-ticket-description {
@@ -358,6 +359,11 @@ blockquote footer {
     padding: 0 2rem 2rem 2rem;
     border: 2px solid var(--primary-color);
     border-radius: 2rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .membership-category:hover {
+    transform: scale(1.05);
   }
 
   #membership hr {
