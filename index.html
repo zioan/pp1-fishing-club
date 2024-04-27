@@ -188,6 +188,8 @@
               </blockquote>
             </div>
             <div class="gallery-media">
+              <img src="./assets/images/arrow_up.png" alt="This media content is related to the comment above"
+                class="arrow-img">
               <video loading="lazy" src="./assets/videos/video1.mp4" controls muted>
                 <p>Your browser doesn't support HTML5 video.</p>
               </video>
@@ -258,6 +260,30 @@
     }
     // event listener for scroll event
     window.addEventListener("scroll", handleScroll);
+
+    // # Code responsible for the Membership section animation
+    const galleryContents = document.querySelectorAll('.gallery-content');
+    const galleryMedias = document.querySelectorAll('.gallery-media');
+
+    // create a new IntersectionObserver instance to detect when the elements come into view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, {
+      rootMargin: '0px',
+      threshold: 0.5
+    });
+
+    galleryContents.forEach((galleryContent) => {
+      observer.observe(galleryContent);
+    });
+
+    galleryMedias.forEach((galleryMedia) => {
+      observer.observe(galleryMedia);
+    });
   </script>
 </body>
 
