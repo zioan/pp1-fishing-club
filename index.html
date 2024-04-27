@@ -19,7 +19,9 @@
   <header>
       <div id="navbar">
         <a href="index.html" id="logo">
-          <span>Apen</span><i class="fa-solid fa-fish"></i></a>
+          <span>Apen</span>
+          <i class="fa-solid fa-fish  logo-icon"></i>
+        </a>
       <button class="nav-toggler" aria-label="toggle main menu" onclick="toggleNavbarVisibility()">
         <i class="fa-solid fa-bars"></i>
       </button>
@@ -238,6 +240,24 @@
     checkWindowSize();
     // Add event listener for window resize
     window.addEventListener('resize', checkWindowSize);
+
+    // # Code for logo icon animation on scroll event
+    const logoIcon = document.querySelector(".logo-icon");
+    let prevScrollPosition = window.pageYOffset;
+    // function triggered by the scroll event listener to change the logo icon animation orientation
+    function handleScroll() {
+      const currentScrollPosition = window.pageYOffset;
+
+      if (currentScrollPosition > prevScrollPosition) {
+        logoIcon.style.transform = "rotate(30deg)";
+      } else {
+        logoIcon.style.transform = "rotate(-30deg)";
+      }
+
+      prevScrollPosition = currentScrollPosition;
+    }
+    // event listener for scroll event
+    window.addEventListener("scroll", handleScroll);
   </script>
 </body>
 

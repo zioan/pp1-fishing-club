@@ -101,8 +101,9 @@ header {
   align-items: center;
 }
 
-#logo i {
+.logo-icon {
   font-size: 2rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-toggler {
