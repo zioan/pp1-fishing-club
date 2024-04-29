@@ -231,7 +231,8 @@ nav li {
   max-width: 16px;
 }
 
-video {
+video,
+.gallery_img {
   width: 100%;
   max-width: 450px;
   margin-top: 1.5rem;
