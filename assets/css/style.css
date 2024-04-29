@@ -12,6 +12,7 @@
   --secondary-color: #58641d;
   --primary-shadow-color: rgba(255, 255, 255, 0.5);
   --secondary-shadow-color: rgba(0, 0, 0, 0.2);
+  --hover-color: #dbd2e0;
 }
 
 /* Reset default browser styles */
@@ -75,6 +76,15 @@ p {
 section {
   scroll-margin-top: 76px;
   padding: 1rem;
+}
+
+.external-link {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.external-link:hover {
+  color: var(--hover-color);
 }
 
 /* Main navigation elements */
@@ -250,6 +260,13 @@ blockquote footer {
   text-align: right;
   margin-right: 2rem;
   font-style: italic;
+}
+
+.side-content {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  text-align: center;
 }
 
 /* Media query: smartphones (576px and up) */
