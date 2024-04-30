@@ -217,9 +217,8 @@ nav li {
   background-color: var(--primary-color);
 }
 
-#membership footer p {
-  font-size: 0.75rem;
-  margin-top: 1rem;
+#membership .mention {
+  margin-top: 2rem;
 }
 
 /* Gallery section */
