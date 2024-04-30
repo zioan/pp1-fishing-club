@@ -317,10 +317,6 @@ textarea {
   resize: vertical;
 }
 
-.hidden-label {
-  display: none
-}
-
 #contact .mention {
   margin: 1rem 0;
 }
