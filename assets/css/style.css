@@ -610,6 +610,21 @@ footer p {
   .arrow-img {
     display: none;
   }
+
+  /* Contact section */
+  #contact h3 {
+    margin-top: 3rem;
+  }
+
+  address {
+    font-size: 1.25rem;
+    margin: 2rem auto 0;
+  }
+
+  address .mention {
+    font-size: 1rem;
+  }
+
   /* Footer */
   #footer {
     padding: 1rem 2rem;
