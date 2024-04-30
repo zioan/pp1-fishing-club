@@ -354,7 +354,8 @@ address hr {
   align-items: center;
 }
 
-footer h5 {
+footer span {
+  font-weight: bold;
   text-decoration: underline;
   margin: 0;
 }
