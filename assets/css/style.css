@@ -12,6 +12,7 @@
   --secondary-color: #58641d;
   --primary-shadow-color: rgba(255, 255, 255, 0.5);
   --secondary-shadow-color: rgba(0, 0, 0, 0.2);
+  --contact-color: #dbd2e0;
   --hover-color: #dbd2e0;
 }
 
@@ -85,6 +86,10 @@ section {
 
 .external-link:hover {
   color: var(--hover-color);
+}
+
+.mention {
+  font-size: 0.75rem;
 }
 
 /* Main navigation elements */
@@ -269,6 +274,68 @@ blockquote footer {
   text-align: center;
 }
 
+/* Contact section */
+#contact {
+  background-color: var(--contact-color);
+}
+
+form {
+  max-width: 450px;
+  margin: 2rem auto
+}
+
+fieldset {
+  margin: 2rem 0 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+fieldset .input-wrapper:first-of-type {
+  margin-bottom: 0.5rem;
+}
+
+legend {
+  padding: 0 1rem;
+}
+
+label {
+  color: var(--primary-color);
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: var(--body-background-color);
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+  border-radius: 0.5rem;
+  outline: none;
+  border-width: 1px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#contact .mention {
+  margin: 1rem 0;
+}
+
+address {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+address span {
+  font-size: 0.75rem;
+}
+
+address hr {
+  margin: 0.5rem 0;
+}
+
+
 /* Media query: smartphones (576px and up) */
 @media screen and (min-width: 576px) {
 
@@ -279,6 +346,15 @@ blockquote footer {
 
   .gallery-media {
     gap: 0.5rem;
+  }
+
+  /* Contact section */
+  fieldset {
+    padding: 1.5rem;
+  }
+
+  fieldset .input-wrapper:first-of-type {
+    margin-bottom: 1rem;
   }
 }
 
