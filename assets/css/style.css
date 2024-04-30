@@ -321,13 +321,22 @@ textarea {
   margin: 1rem 0;
 }
 
-address {
-  max-width: fit-content;
+input[type="submit"] {
+  max-width: 150px;
+  cursor: pointer;
+  display: block;
   margin: 0 auto;
 }
 
-address span {
-  font-size: 0.75rem;
+input[type="submit"]:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+address {
+  max-width: fit-content;
+  margin: 1rem auto 0;
+
 }
 
 address hr {
