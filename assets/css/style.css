@@ -161,6 +161,10 @@ nav li {
   position: relative;
 }
 
+#hero p {
+  text-indent: 0;
+}
+
 .hero-image {
   width: 100%;
 }
