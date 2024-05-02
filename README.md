@@ -88,11 +88,11 @@ Users of this website can find out more about the club's history, membership pla
   ![Screenshot of the Lighthouse desktop test](assets/readme/test_desktop.png)
 
 ### Code Validation
-  - No errors found running the <a href="https://validator.w3.org/">W3 HTML validator</a>
+  - No errors found running the <a href="https://validator.w3.org/" target="_blank">W3 HTML validator</a>
 
   ![Screenshot of the HTML validation test](assets/readme/html_validation.png)
 
-  - No errors found running the <a href="https://jigsaw.w3.org/css-validator/">W3 CSS validator</a>
+  - No errors found running the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 CSS validator</a>
 
     ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
 
