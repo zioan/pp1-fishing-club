@@ -154,12 +154,15 @@ nav li {
 
 /* Hero section */
 #hero {
-  background: url("../images/hero.webp") no-repeat center/cover;
   width: 100%;
   min-height: 12rem;
   padding: 0;
   margin-top: 62px;
   position: relative;
+}
+
+.hero-image {
+  width: 100%;
 }
 
 .text-overlay {
