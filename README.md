@@ -96,3 +96,18 @@ Users of this website can find out more about the club's history, membership pla
 
     ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
 
+## Known Bugs
+ - On some mobile devices, it can happen in rare cases that the landscape view is not suitable for reading content.
+
+## Room for Improvements
+  - As with all other products resulting from human knowledge and creativity, there is always room for improvement.
+  ### Landscape view
+  - Improvement of UI and UX in landscape view, especially on narrow screens.
+  ### Navigation
+  - Adding user feedback to the menu navigation. This is a single page website, adding navigation feedback (where the user is currently on the page) requires more JavaScript to ensure a good user experience.
+  - A "Go to top" button can be added for the mobile view.
+  ### Color scheme and design
+  - For this website a color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used. It may not be the right color scheme, but it still fits well with the theme of the website.
+  ![Screenshot of the color pallet](assets/readme/color_pallet.png)
+  - The Membership section can be improved by finding a better way to display the content.
+  - and the list can go on...
