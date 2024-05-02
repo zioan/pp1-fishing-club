@@ -47,4 +47,25 @@ Users of this website can find out more about the club's history, membership pla
 
   ![Screenshot of the website Footer](assets/readme/website_footer.png)
 
+## Technologies Used
+  - While the focus of this website is HTML5 and CSS3, a small amount of JavaScript code has been added to add a little interactivity.
+  - "Montserrat" font was used from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.
+  - For increased UX, icons from <a href="https://fontawesome.com/icons" target="_blank">Font Awesome</a> was used in this project.
 
+### HTML5
+  - The markup has been carefully written to meet the latest accessibility and SEO requirements, taking into account best practice principles, like for example adding <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label" target="_blank"> aria-label </a> attributes for UI elements that do not have a proper meaning for screen readers.
+
+### CSS3
+  - The website was designed from the ground up for small screens (280 pixels and above) and adapted to larger screens using media queries.
+  - With regard to large screens, a minimal number of styles were added to reduce loading time and complexity while keeping the website visually appealing.
+  - All CSS properties that are considered "advanced concepts" have been carefully checked on <a href="https://caniuse.com" target="_blank"> caniuse.com </a> to ensure good browser compatibility.
+  - CSS variables have been used to reduce maintenance time. The color palette and the width of the body can be easily changed.
+### Javascript
+  - A small amount of JavaScript has been added to make the UI and UX more enjoyable, as following:
+#### Logo animation
+  - The logo has a small rotation (+30 to -30 degrees) based on the user's scrolling. This is handled by the "scroll" event listener.
+#### Responsive menu navigation
+  - On small screens (768px and smaller), the "hamburger" icon is displayed and the user interface with the menu links is hidden to create more space for the content. The transition between small and large screens is made with the help of the "resize" event listener and click events.
+  - Clicking on menu items also triggers the same functionality to create more space for the content.
+#### Membership section animation
+  - This animation is using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target="_blank">IntersectionObserver API</a> to detect when the content gets into view.
