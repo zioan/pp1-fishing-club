@@ -69,3 +69,30 @@ Users of this website can find out more about the club's history, membership pla
   - Clicking on menu items also triggers the same functionality to create more space for the content.
 #### Membership section animation
   - This animation is using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API" target="_blank">IntersectionObserver API</a> to detect when the content gets into view.
+
+## Testing
+
+### Browser & Manual Testing
+  - The website has been tested with the most common browsers (Chrome, Mozilla Firefox, Safari, Microsoft Edge), both on mobile and desktop versions, in a development environment and on real devices.
+  - The website has been tested to ensure that it remains responsive and that no overflow can negatively impact the user experience.
+  - All external links have been tested for broken paths and it has been ensured that they open in a separate tab
+  - The required fields of the contact form have been tested, as well as the email field, to ensure that the user receives correct validation if an incorrect email format is provided.
+  - The contact form submission has been tested with partial and full content to ensure good functionality.
+
+### Lighthouse
+  - Mobile
+
+  ![Screenshot of the Lighthouse mobile test](assets/readme/test_mobile.png)
+
+  - Desktop
+  ![Screenshot of the Lighthouse desktop test](assets/readme/test_desktop.png)
+
+### Code Validation
+  - No errors found running the <a href="https://validator.w3.org/">W3 HTML validator</a>
+
+  ![Screenshot of the HTML validation test](assets/readme/html_validation.png)
+
+  - No errors found running the <a href="https://jigsaw.w3.org/css-validator/">W3 CSS validator</a>
+
+    ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
+
