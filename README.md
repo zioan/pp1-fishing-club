@@ -111,3 +111,11 @@ Users of this website can find out more about the club's history, membership pla
   ![Screenshot of the color pallet](assets/readme/color_pallet.png)
   - The Membership section can be improved by finding a better way to display the content.
   - and the list can go on...
+
+## Version Control and Deployment
+  - The source code for this website is stored on <a href="https://github.com/" target="_blank">GitHub</a>.
+  - The repository contains a single branch, and all code has been submitted in small chunks as it was written to ensure a good understanding in case of necessary debugging and further maintenance. The repository can be found at <a href="https://github.com/zioan/pp1-fishing-club" target="_blank">this link</a>, and can be downloaded or cloned using git commands for further local development.
+  - For a complete guide on how to clone a Github Repository please follow <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" target="_blank">this link</a>.
+  
+## Deployment
+  - The website is hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and can be accessed via <a href="https://zioan.github.io/pp1-fishing-club/" target="_blank">this link</a>.
