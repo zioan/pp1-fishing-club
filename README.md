@@ -119,3 +119,21 @@ Users of this website can find out more about the club's history, membership pla
   
 ## Deployment
   - The website is hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and can be accessed via <a href="https://zioan.github.io/pp1-fishing-club/" target="_blank">this link</a>.
+
+## Credits
+  - A big thank you for my mentor Spencer for helping me understand the requirements and guiding me through the realization of this project!
+  ### Media
+  - The images used in this project are from <a href="https://unsplash.com/" target="_blank">Unsplash</a>;
+  - The video file is from <a href="https://coverr.co/" target="_blank">Coverr</a>
+  - The small arrow image used in the Gallery section for large screens is from <a href="https://uxwing.com/" target="_blank">UXWings</a>
+  - The logo and social media icons are from <a href="https://fontawesome.com/icons" target="_blank">Font Awesome</a>
+  - The favicon is made by me using a screenshot from the logo, and Mac image editor capability. 
+  ### Text Content and JavaScript Code
+  - The text content and JavaScript code were created by me. Thanks to previous professional coding experience, I was able to easily put together the implementation of the JavaScript logic.
+  ### Tools
+  - <a href="https://convertio.co/" target="_blank">Convertio</a> helped me to convert the images from JPG to WebP format.
+  - <a href="https://tinypng.com/" target="_blank">TinyPNG</a> was used to optimize the images for web.
+  - <a href="https://www.veed.io/" target="_blank">Veed.io</a> was used to reduce the video resolution making it more suitable for this project.
+  - <a href="https://caniuse.com" target="_blank">Caniuse.com </a> was used to check browser compatibility for multiple javaScript and CSS features.
+  ### Documentation and Inspiration
+  - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as the best practice for the "aria-label" attribute and the "IntersectionObserver API" use case.
