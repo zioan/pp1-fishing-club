@@ -107,9 +107,7 @@ Users of this website can find out more about the club's history, membership pla
   ### Navigation
   - Adding user feedback to the menu navigation. This is a single page website, adding navigation feedback (where the user is currently on the page) requires more JavaScript to ensure a good user experience.
   - A "Go to top" button can be added for the mobile view.
-  ### Color scheme and design
-  - For this website a color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used. It may not be the right color scheme, but it still fits well with the theme of the website.
-  ![Screenshot of the color pallet](assets/readme/color_pallet.png)
+  ### Design
   - The Membership section can be improved by finding a better way to display the content.
   - and the list can go on...
 
@@ -137,4 +135,6 @@ Users of this website can find out more about the club's history, membership pla
   - <a href="https://www.veed.io/" target="_blank">Veed.io</a> was used to reduce the video resolution making it more suitable for this project.
   - <a href="https://caniuse.com" target="_blank">Caniuse.com </a> was used to check browser compatibility for multiple javaScript and CSS features.
   ### Documentation and Inspiration
+  - For this website a color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used.
+  ![Screenshot of the color pallet](assets/readme/color_pallet.png)
   - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as the best practice for the "aria-label" attribute and the "IntersectionObserver API" use case.
