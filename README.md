@@ -96,8 +96,9 @@ Users of this website can find out more about the club's history, membership pla
 
     ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
 
-## Known Bugs
- - On some mobile devices, it can happen in rare cases that the landscape view is not suitable for reading content.
+## Bugs
+ - This is a browser setting rather than a specific bug. The "smooth" scrolling does not work as intended in Mozilla Firefox. To benefit from the visual effect of smooth scrolling, the user must activate the option "Use smooth scrolling" in the browser settings. In my attempts to fix this "bug" I checked the browser compatibility on <a href="https://caniuse.com" target="_blank">Caniuse.com </a> for the style property I used in CSS (scroll-behavior: smooth;), and I did a more in-depth Google search where I found the relevant information on the "Use smooth scrolling" feature hidden in the Firefox settings.
+ - There are no other known bugs.
 
 ## Room for Improvements
   - As with all other products resulting from human knowledge and creativity, there is always room for improvement.
