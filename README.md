@@ -15,9 +15,12 @@ Users of this website can find out more about the club's history, membership pla
 ### Menu Navigation
   - It is located at the top of the website.
   - It has a fixed position at the top, ensuring that users have access to the menu at all times.
-  - On small screens, when the navigation links do not fit in a single row, the menu transforms into a "hamburger" menu (a compact menu icon that expands to show the full menu when clicked).
-
   ![Screenshot of the website menu navigation](assets/readme/website_navigation.png)
+  - On small screens, when the navigation links do not fit in a single row, the menu transforms into a "hamburger" menu.
+  ![Screenshot of the website menu navigation closed on mobile view](assets/readme/responsive_menu_closed.png)
+  - Once the "hamburger" icon is clicked, the menu expands to make navigation links visible to the user.
+  ![Screenshot of the website menu navigation expanded on mobile view](assets/readme/responsive_menu_expanded.png)
+
 
 ### Home Section
   - It contains a Hero image showing an angler at a beautiful lake and a text overlay with the website headline.
