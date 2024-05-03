@@ -31,7 +31,8 @@ Users of this website can find out more about the club's history, membership pla
 ### Membership Section
   - It contains a detailed list of the various membership plans based on the age and preferences of the members. The content of this section is separated by horizontal lines on small screens and displayed as cards on larger screens.
 
-  ![Screenshot of the website Membership section](assets/readme/website_membership.png)
+  ![Screenshot of the website Membership section on desktop view](assets/readme/website_membership.png)
+  ![Screenshot of the website Membership section on mobile view](assets/readme/website_membership_mobile.png)
 
 ### Gallery Section
   - It contains stories and media content from club members.
