@@ -78,8 +78,9 @@ Users of this website can find out more about the club's history, membership pla
 
 ### Browser & Manual Testing
   - The website has been tested with the most common browsers (Chrome, Mozilla Firefox, Safari, Microsoft Edge), both on mobile and desktop versions, in a development environment and on real devices.
+  - In terms of accessibility, the website and the code itself have been carefully checked for compatibility with screen readers and the color palette used to ensure good visibility of all elements.
   - The website has been tested to ensure that it remains responsive and that no overflow can negatively impact the user experience.
-  - All external links have been tested for broken paths and it has been ensured that they open in a separate tab
+  - All external links have been tested for broken paths and it has been ensured that they open in a separate tabs.
   - The required fields of the contact form have been tested, as well as the email field, to ensure that the user receives correct validation if an incorrect email format is provided.
   - The contact form submission has been tested with partial and full content to ensure good functionality.
 
@@ -89,15 +90,14 @@ Users of this website can find out more about the club's history, membership pla
   ![Screenshot of the Lighthouse mobile test](assets/readme/test_mobile.png)
 
   - Desktop
+
   ![Screenshot of the Lighthouse desktop test](assets/readme/test_desktop.png)
 
 ### Code Validation
   - No errors found running the <a href="https://validator.w3.org/" target="_blank">W3 HTML validator</a>
-
   ![Screenshot of the HTML validation test](assets/readme/html_validation.png)
 
   - No errors found running the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 CSS validator</a>
-
     ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
 
 ## Bugs
@@ -125,6 +125,7 @@ Users of this website can find out more about the club's history, membership pla
 
 ## Credits
   - A big thank you for my mentor Spencer for helping me understand the requirements and guiding me through the realization of this project!
+
   ### Media
   - The images used in this project are from <a href="https://unsplash.com/" target="_blank">Unsplash</a>;
   - The video file is from <a href="https://coverr.co/" target="_blank">Coverr</a>
@@ -137,8 +138,9 @@ Users of this website can find out more about the club's history, membership pla
   - <a href="https://convertio.co/" target="_blank">Convertio</a> helped me to convert the images from JPG to WebP format.
   - <a href="https://tinypng.com/" target="_blank">TinyPNG</a> was used to optimize the images for web.
   - <a href="https://www.veed.io/" target="_blank">Veed.io</a> was used to reduce the video resolution making it more suitable for this project.
-  - <a href="https://caniuse.com" target="_blank">Caniuse.com </a> was used to check browser compatibility for multiple javaScript and CSS features.
+  - <a href="https://caniuse.com" target="_blank">Caniuse.com </a> was used to check browser compatibility for multiple JavaScript and CSS features.
+  - <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> was used to take the screenshot with different devices presented at the top of this document.
   ### Documentation and Inspiration
   - For this website a color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used.
   ![Screenshot of the color pallet](assets/readme/color_pallet.png)
-  - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as the best practice for the "aria-label" attribute and the "IntersectionObserver API" use case.
+  - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as the best practice for the "aria-label" attribute and the "IntersectionObserver API" use case and syntax.
