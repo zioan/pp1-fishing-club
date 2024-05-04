@@ -9,7 +9,13 @@ Users of this website can find out more about the club's history, membership pla
 ![Screenshot of the website on different devices](assets/readme/responsive.png)
 
 ## Overview
-  - This website is structured as a single-page website with four sections (Home, Membership, Gallery and Contact).
+  - This website is designed as a single-page website with four sections (Home, Membership, Gallery, and Contact). Some of the animations are only available for large screens, the main objective being to allow the user to concentrate on the content when surfing using a smartphone.
+
+## Fonts & Color Pallet
+- "Montserrat" font was used from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.
+- A color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used.
+<br>
+![Screenshot of the color pallet](assets/readme/color_pallet.png)
 
 ## Features
 ### Menu Navigation
@@ -140,7 +146,5 @@ Users of this website can find out more about the club's history, membership pla
   - <a href="https://www.veed.io/" target="_blank">Veed.io</a> was used to reduce the video resolution making it more suitable for this project.
   - <a href="https://caniuse.com" target="_blank">Caniuse.com </a> was used to check browser compatibility for multiple JavaScript and CSS features.
   - <a href="https://ui.dev/amiresponsive" target="_blank">AmIResponsive</a> was used to take the screenshot with different devices presented at the top of this document.
-  ### Documentation and Inspiration
-  - For this website a color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used.
-  ![Screenshot of the color pallet](assets/readme/color_pallet.png)
-  - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as the best practice for the "aria-label" attribute and the "IntersectionObserver API" use case and syntax.
+  ### Documentation
+  - I used <a href="https://www.w3schools.com/" target="_blank">W3School</a> and <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Docs</a> to research and understand some aspects used in this project, such as best practices and the "IntersectionObserver API" use case and syntax.
