@@ -5,7 +5,7 @@
 Apen Fishing Club is, as the name suggests, a website for a fishing club that gives a brief overview of the club and its members.
 
 Users of this website can find out more about the club's history, membership plans and requirements, a short gallery of reviews and media content from other members, and a contact form for interested users to get in touch with the club. The website was created using the responsive-first concept and is responsive on all screen sizes.
-<br>
+
 ![Screenshot of the website on different devices](assets/readme/responsive.png)
 
 ## Overview
@@ -14,51 +14,51 @@ Users of this website can find out more about the club's history, membership pla
 ## Fonts & Color Pallet
 - "Montserrat" font was used from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.
 - A color pallet generated from <a href="https://coolors.co" target="_blank">coolors.co</a> was used.
-<br>
+
 ![Screenshot of the color pallet](assets/readme/color_pallet.png)
 
 ## Features
 ### Menu Navigation
   - It is located at the top of the website.
   - It has a fixed position at the top so that users have access to the menu at all times when scrolling through the content.
-  <br>
+  
   ![Screenshot of the website menu navigation](assets/readme/website_navigation.png)
   - On small screens, when the navigation links do not fit in a single row, the menu transforms into a "hamburger" menu.
-    <br>
+    
   ![Screenshot of the website menu navigation closed on mobile view](assets/readme/responsive_menu_closed.png)
   - Once the "hamburger" icon is clicked, the menu expands to make navigation links visible to the user.
-    <br>
+    
   ![Screenshot of the website menu navigation expanded on mobile view](assets/readme/responsive_menu_expanded.png)
 
 
 ### Home Section
   - It contains a Hero image showing an angler at a beautiful lake and a text overlay with the website headline.
   - It contains an About section in which the user can catch up on the history of the club.
-  <br>
+  
   ![Screenshot of the website Home section](assets/readme/website_home.png)
 
 ### Membership Section
   - It contains a detailed list of the various membership plans based on age and preference. The content of this section is separated by horizontal lines on small screens and displayed as cards on larger screens.
-  <br>
+  
   ![Screenshot of the website Membership section on mobile view](assets/readme/website_membership_mobile.png)
-  <br>
+  
   ![Screenshot of the website Membership section on desktop view](assets/readme/website_membership.png)
 
 ### Gallery Section
   - It contains stories and media content from club members.
-  <br>
+  
   ![Screenshot of the website Gallery section](assets/readme/website_gallery.png)
 
 ### Contact Section
   - It contains an engaging message for the user to contact the Club (email, phone, direct message via the contact form or in person).
   - It contains an address sub-section where the user can compose an email or initiate a call directly from their device.
   - It contains a contact form in which the user must enter their first and last name, e-mail address, and the message to be sent to the Club. There is an optional phone field and, if the user is already a member, a field for the membership ID.
-  <br>
+  
   ![Screenshot of the website Contact section](assets/readme/website_contact.png)
 
 ### Website Footer
   - It contains copyright information and links to social media platforms.
-  <br>
+  
   ![Screenshot of the website Footer](assets/readme/website_footer.png)
 
 ## Technologies and Resources Used
@@ -97,20 +97,20 @@ Users of this website can find out more about the club's history, membership pla
   - During the tests, another problem was identified in the Chrome browser: The form validation messages for empty mandatory fields are not displayed consistently. However, the form functionality works properly and the form is not submitted if the mandatory fields are empty. In this case, the cursor moves to the empty field and draws the user's attention to it. My guess (after research and investigation) is that there may be an issue with the current Chrome browser or operating system. The tests were performed with the latest Chrome version (124.0.6367.118/119 / 30 April 2024) under Mac OS 14.4.1.
 ### Lighthouse
   - Mobile
-  <br>
+  
   ![Screenshot of the Lighthouse mobile test](assets/readme/test_mobile.png)
-  <br>
+  
   - Desktop
-  <br>
+  
   ![Screenshot of the Lighthouse desktop test](assets/readme/test_desktop.png)
 
 ### Code Validation
   - No errors found running the <a href="https://validator.w3.org/" target="_blank">W3 HTML validator</a>
-  <br>
+  
   ![Screenshot of the HTML validation test](assets/readme/html_validation.png)
 
   - No errors found running the <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 CSS validator</a>
-  <br>
+  
     ![Screenshot of the CSS validation test](assets/readme/css_validation.png)
 
 ## Bugs
