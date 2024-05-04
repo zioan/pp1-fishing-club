@@ -110,13 +110,20 @@ Users of this website can find out more about the club's history, membership pla
 ## Bugs
  - There are no known bugs, apart from the problems mentioned in the [Browser testing](#browser-testing) subsection.
 
-## Version Control and Deployment
+## Version Control
   - The source code for this website is stored on <a href="https://github.com/" target="_blank">GitHub</a>.
-  - The repository contains a single branch, and all code has been submitted in small chunks as it was written to ensure a good understanding in case of necessary debugging and further maintenance. The repository can be found at <a href="https://github.com/zioan/pp1-fishing-club" target="_blank">this link</a>, and can be downloaded or cloned using git commands for further local development.
-  - For a complete guide on how to clone a Github Repository please follow <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" target="_blank">this link</a>.
+  - The repository contains a single branch, and all code has been submitted in small commits as it was written, to ensure a good understanding in case of necessary debugging and further maintenance. The repository can be found at <a href="https://github.com/zioan/pp1-fishing-club" target="_blank">this link</a>, and can be downloaded or cloned for further development.
+  ### Commands used for Git Version Control
+  - git add . - to add all changes to the staging state.
+  - git commit -m "commit message" - to commit changes to the local repository with a meaningful message.
+  - git push - to push all commits to the remote repository on GitHub.
   
 ## Deployment
   - The website is hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and can be accessed via <a href="https://zioan.github.io/pp1-fishing-club/" target="_blank">this link</a>.
+  ### Steps made for deploying the website
+  - In the Github repository, I navigated to Settings tab.
+  - From the source section drop-down menu, I selected the Master branch and Save.
+  - A few moments later, the page was automatically refreshed and the link to the website was displayed.
 
 ## Credits
   - A big thank you for my mentor Spencer for helping me understand the requirements and guiding me through the realization of this project!
